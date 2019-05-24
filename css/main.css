@@ -1,0 +1,432 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+margin: 0;
+padding:0;
+width: 100%;
+height: 100%;
+}
+
+/************************ Header Section *****************************/
+
+
+.container-fluid {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+footer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#hour-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#nav-section{
+  display:inline-block;
+}
+
+#wrapper-menu {
+  display: inline-block;
+
+}
+
+h1.logo-text {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color:#EF0020;
+    float: left;
+}
+
+img.logo-image {
+  position: relative;
+  width: 7%;
+  padding: 19px;
+  z-index: 1;
+  margin-left: 15px;
+}
+
+img,.menu-section {
+  display: inline-block;
+}
+
+.menu-section{
+  position: relative;
+  left: 17%;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  z-index: 1;
+  bottom: 53px;
+}
+
+.menu-section a{
+  text-decoration:none;
+  padding:5px;
+  color: #fff;
+}
+
+.menu-section a:hover {
+  color:#EF0020;
+  text-decoration: underline;
+  transition: all 0.4s ease-in-out;
+}
+
+.header-buttons{
+  float: right;
+  text-align: center;
+  display: block;
+}
+
+.header-buttons a{
+  font-size: 0.8rem;
+  color: #000;
+  position: relative;
+  text-decoration:none;
+  text-transform: uppercase;
+  z-index: 1;
+  padding:10px 12px;
+  margin-left: 5px;
+  border-radius: 6px;
+}
+
+.header-buttons a:hover{
+ opacity: 5;
+}
+
+.header-buttons a{
+  background-color: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 2%, rgba(250,108,49,1) 34%, rgba(239,0,32,1) 74%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 2%,rgba(250,108,49,1) 34%,rgba(239,0,32,1) 74%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 2%,rgba(250,108,49,1) 34%,rgba(239,0,32,1) 74%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/************************ Header End *****************************/
+
+
+/************************ BG-Video Section *****************************/
+
+
+#banner-section video {
+  width: 100%;
+  min-height: 100%;
+  background-size:cover;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+
+}
+
+/************************ BG-Video Close *****************************/
+
+/************************ Bayou Section *****************************/
+
+#bayou-container{
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  top:100px;
+}
+
+#hour-special, h3{
+  background: #e4ebf1;
+  padding: 50px 0px;
+  z-index: 1;
+  opacity:0.5;
+}
+
+#banner-section, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/************************ Bayou Section Close *****************************/
+
+
+/************************ Welcome Section *****************************/
+
+ /* #welcome-container{ 
+  background:white;
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+}  */
+
+/* .welcome {
+  text-align: center;
+} */
+
+/* .welcome,h2{
+  color:#720013;
+  font-size:2.2rem;
+  font-family: 'Times Roman';
+  text-transform: uppercase;
+} */
+
+/* .welcome, p{
+  color: #000;
+  font-size: 1.5rem;
+  padding: 50px;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 auto;
+} */
+
+.btn-centered {
+  /* display: inline-block; */
+}
+
+/* .btn-centered{
+  color:darkgray;
+  text-decoration:none;
+  padding:25px;
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 25px;
+} */
+
+/* #welcome-container {
+  position: relative;
+  top:25px;
+} */
+
+/* Welcome Section End */
+/* Seafood Image Section Start */
+
+/*.crab-pic-image {
+  background-image: url("https://cmt.azureedge.net/media/orig_seafood-boil-20160211134956436046w9n5hd.jpg");
+  background-repeat: no-repeat;
+  With cover maybe it is better to set the background-position to center
+  background-size: cover;
+
+  background-size: contain;
+  height: 875px;
+  margin:0;
+}*/
+.crab-pic-image img {
+  width: 100%;
+}
+
+/* Seafood Image Section End */
+/* Contact Section Start */
+
+#contact-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 200px 0;
+}
+
+.contact-us a{
+  display:inline-block;
+  text-decoration: none;
+  color:#000;
+  padding:10px;
+
+}
+
+.contact-us {
+  text-align:center;
+}
+
+#contact-container .contact-us {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact-container .contact-us div {
+  font-size: 1.5rem;
+  text-transform:uppercase;
+}
+
+/*#contact-container .interact {
+
+  float:left;
+
+  position: relative;
+  left: 15%;
+}
+
+#contact-container .bio {
+  font-size: 1.5rem;
+  text-transform:uppercase;
+  position: relative;
+  right: 60px;
+}
+
+#contact-container .set-up {
+  font-size: 1.5rem;
+  float:right;
+  text-transform:uppercase;
+  position: relative;
+  right: 15%;
+  bottom: 28px;
+}*/
+/* Contact Section End */
+/* Gumbo Pic Section Start */
+
+.lobster-gumbo-pic {
+  background-image: url("https://www.thespruceeats.com/thmb/MHcp7mRex51mJzaYWwYkl9lZNBE=/1500x1000/filters:no_upscale()/seafood-gumbo-recipe-3057282-Final-5b9d3adac9e77c0050c1f55e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 875px;
+  margin-bottom: 150px;
+}
+/* Gumbo Pic Section End */
+/* Operation Hours Section Start */
+
+#hour-container {
+ background: #720013;
+ width:100%;
+ margin:0;
+ padding:125px;
+}
+
+#hour-container .hour-info,
+.hour-info2{
+  text-transform: uppercase;
+  color:#fff;
+  display:inline-block;
+  margin-right: 28%;
+}
+
+#hour-container .hour-info li:first-child{
+  font-size: 2rem;
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+}
+
+#hour-container .hour-info li:nth-child(2){
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+#hour-container .hour-info li{
+  list-style-type:none;
+  line-height: 2.5;
+  font-size: 1.5rem;
+}
+
+#hour-container .hour-info2 li:first-child{
+  font-size: 2rem;
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+}
+
+#hour-container .hour-info2 li:nth-child(2){
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+#hour-container .hour-info2 li{
+  list-style-type:none;
+  line-height: 2.5;
+  font-size: 1.5rem;
+}
+/* Operation Hours Section End */
+/* Footer/ Map Section Start */
+
+#map-section-container{
+  background:#000;
+  float:left;
+  display:inline-block;
+  width:100%;
+  line-height: 2;
+}
+
+#map {
+  height:400px;
+  width:100%;
+}
+
+/* Address info Section */
+/* Create Div's for each p, h1 and ul */
+
+.address-info{
+  box-sizing: border-box;
+  float: left;
+  margin: 25px;
+}
+.address-info{
+  display:inline-block;
+}
+.address-info-2{
+  display:inline-block;
+}
+.address-info p{
+  font-size: 2.5rem;
+  color:#fff;
+  display:inline-block;
+}
+
+.address-info li:nth-child(4){
+  text-transform:inherit;
+}
+
+.address-info2 li:nth-child(4){
+  text-transform:inherit;
+}
+
+.address-info2 p{
+  font-size: 2.5rem;
+  color:#fff;
+  display:inline-block;
+}
+.address-info li{
+  color:#fff;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  list-style-type:none;
+}
+
+.address-info2 li{
+  color:#fff;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  list-style-type:none;
+}
+
+.address-info a{
+  border:1px #fff solid;
+
+}
+
+.address-info2 a{
+  border:1px #fff solid;
+}
+
+.footer-para p::after{
+  content:"";
+  display:block;
+}
+.footer-para-2{
+  display:inline-block;
+}
+.place-info{
+  display:inline-block;
+}
+.place-info-2{
+  display:inline-block;
+}
+.btn-directions {
+  font-size: 1.4rem;
+  color:#fff;
+  padding:20px;
+  text-decoration:none;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>Sea Crab Shack</title>
+</head>
+
+
+<body>
+
+
+  <!--------------------------------------- Video Section ---------------------------------->
+
+
+  <div id="banner-section">
+      <video src="Lobster Meal.mp4" autoplay loop muted></video>
+    </div>
+
+
+<!--------------------------------------- Nav / Header Section ---------------------------------->
+
+<nav id="nav-section">
+    <div class="container-fluid">
+      <img class="logo-image" src="images/crab-sebastian.png">
+        <h1 class="logo-text">Under The <br>Sea Crab Shack</h1>
+        <div class="menu-section">
+            <a href="#">Home </a>
+            <a href="#">About </a>
+            <a href="#">Menu</a>
+            <a href="#">Order Online</a>
+            <a href="#">Locations</a>
+            <a href="#">Reservations</a>
+            <a href="#">Contacts</a>
+          </div>
+          <div class="header-buttons">
+          <a style="color: #000!important;" class="btn" href="tel:5713511270">Arlington: 571-555-5555</a>
+          <a style="color: #000!important;" class="btn" href="tel:5713511270">Centreville: 703-555-2468</a>
+      
+          
+      </div>
+    </div>
+    
+      <!--------------------------------------- Bayou Container Section ---------------------------------->
+
+    <div id="bayou-container">
+        <h3 class="hour-special">$1 Oysters Wed 5-10PM and Sat & Sun<br>12-4PM Happy Hour Mon-Fri 5-7pm and Sat & Sun
+          3-5pm<br>Bayou Catch Special Monday-Thurday $54</h3>
+      </div>
+  </nav>
+
+
+      <!--------------------------------------- Welcome Section ---------------------------------->
+
+
+    <div id="welcome-container">
+      <div class="welcome">
+        <h2>Welcome</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde adipisci qui accusantium, incidunt nobis
+          repellat explicabo. Quas consequuntur nulla hic adipisci. Voluptates voluptatibus quas beatae nulla tenetur
+          aspernatur ea corporis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde adipisci qui
+          accusantium, incidunt nobis repellat explicabo. Quas consequuntur nulla hic adipisci. Voluptates voluptatibus
+          quas beatae nulla tenetur aspernatur ea corporis.</p>
+        <a href="#" class="btn-centered">Read More</a>
+      </div>
+    </div>
+
+    <!-- <div class="crab-pic-image">
+      <img src="https://cmt.azureedge.net/media/orig_seafood-boil-20160211134956436046w9n5hd.jpg" alt="">
+    </div>
+
+    <div id="contact-container">
+      <div class="contact-us">
+        <div class="interact" <a href="#">Contact Us</a>
+        </div>
+        <div class="bio" <a href="#">Our Story</a>
+        </div>
+        <div class="set-up" <a href="#">Make Reservations</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="lobster-gumbo-pic">
+    </div>
+
+    <div id="hour-container">
+      <div class="hour-info">
+        <ul>
+          <li>Hours of Operation</li>
+          <li>Centerville</li>
+          <li>mon-thur 5:00pm-10:00pm</li>
+          <li>fri 5:00pm-11:00pm</li>
+          <li>sat 12:00pm-11:00pm</li>
+          <li>sun 12:00pm-10:00pm</li>
+        </ul>
+      </div>
+      <div class="hour-info2">
+        <ul>
+          <li>Hours of Operation</li>
+          <li>Arlington</li>
+          <li>mon-thur 5:00pm-10:00pm</li>
+          <li>fri 5:00pm-11:00pm</li>
+          <li>sat 12:00pm-11:00pm</li>
+          <li>sun 12:00pm-10:00pm</li>
+        </ul>
+      </div>
+    </div>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        // Map Options
+        var options = {
+          zoom: 10,
+          center: {
+            lat: 38.8816,
+            lng: -77.0910
+          }
+        }
+        //New map
+        var map = new google.maps.Map(document.getElementById('map'), options);
+
+        //Add marker
+        var marker = new google.maps.Marker({
+          position: {
+            lat: 38.8816,
+            lng: -77.0910
+          },
+          map: map
+        });
+
+        var infoWindow = new google.maps.InfoWindow({
+          content: '<h4>Under The Sea Crab Shack</h4>'
+        });
+
+        marker.addListener('click', function () {
+          infoWindow.open(map, marker);
+        });
+
+
+        addMarker({
+          lat: 38.8816,
+          lng: -77.0910
+        });
+        addMarker({
+          lat: 38.8404,
+          lng: -77.4289
+        });
+
+        //Add Marker function
+        function addMarker() {
+          var marker = new google.maps.Marker({
+            position: coords,
+            map: map,
+            icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+          });
+        }
+      }
+    </script>
+
+    <footer>
+      <div id="map-section-container">
+        <div class="address-info">
+          <p class="footer-para">Under the Sea<br>Crab Shack</p>
+          <ul class="place-info">
+            <li>5555 Timothty Parkway,</li>
+            <li>Centreville, VA 20120</li>
+            <li>Phone: 703-555-2468</li>
+            <li>Email: centreville@undertheseacracbshack.com</li>
+          </ul>
+          <a href="#" class="btn-directions">Get Directions</a>
+        </div>
+        <div class="address-info2">
+          <p class="footer-para-2">Under the Sea<br>Crab Shack</p>
+          <ul class="place-info-2">
+            <li>5555 S. Merryland St.</li>
+            <li>Arlington, VA 22213</li>
+            <li>Phone: 571-555-5555</li>
+            <li>Email: arlington@undertheseacracbshack.com</li>
+          </ul>
+          <a href="#" class="btn-directions">Get Directions</a>
+        </div>
+
+        <div class="social-links">
+          <p>Under the Sea Crab Shack &copy 2018</p>
+          <a href="facebook-icon"></a>
+          <a href="twitter-icon"></a>
+          <a href="youtube-icon"></a>
+          <a href="instagram-icon"></a>
+          <a href="#">Back to top</a>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRh-5wumnfzlH1BFKIWUxzh46Lrsregu0&callback=initMap"
+    async defer></script> -->
+</body>
+
+</html>
